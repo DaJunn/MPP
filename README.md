@@ -35,6 +35,6 @@ This course is designed to give an overview of the components of a modern Automa
 ## 9.4Natural Language Processing (NLP)
 Natural language processing (NLP) is one of the most important technologies of the information age. Understanding complex language utterances is also a crucial part of artificial intelligence. In this course, you will be given a thorough overview of Natural Language Processing and how to use classic machine learning methods. You will learn about Statistical Machine Translation as well as Deep Semantic Similarity Models (DSSM) and their applications. We will also discuss deep reinforcement learning techniques applied in NLP and Vision-Language Multimodal Intelligence.
 
-# Microsoft Professional Capstone : Artificial Intelligence
+# 10.Microsoft Professional Capstone : Artificial Intelligence
 This course is unusual in that it is a test of the knowledge and skills you have developed by taking other courses. The point of this capstone project is to enable to to gain experience of applying these skills to solve a real problem.
 
