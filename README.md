@@ -1,40 +1,149 @@
-# 1.Introduction to Artificial Intelligence (AI)
-Artificial Intelligence will define the next generation of software solutions. This computer science course provides an overview of AI, and explains how it can be used to build smart apps that help organizations be more efficient and enrich people’s lives. It uses a mix of engaging lectures and hands-on activities to help you take your first steps in the exciting field of AI.
 
-# 2.Introduction to Python for Data Science
-Learn the basics of Python programming. Starting from the very beginning, with basic arithmetic and variables, and learn how to handle data structures, such as Python lists, Numpy arrays, and Pandas DataFrames. Along the way, you’ll learn about Python functions and control flow. Plus, you’ll look at the world of data visualizations with Python and create your own stunning visualizations based on real data.
+# Azure Machine Learning Hands on Labs
+Azure Machine Learning Hands on Lab created by Azure Readiness
 
-# 3.Essential Mathematics for Artificial Intelligence
-Learn the essential mathematical foundations for machine learning and artificial intelligence using Python. The couse focuses on mathematical concepts that you’ll encounter in studies of machine learning. It is designed to fill the gaps for students who missed these key concepts as part of their formal education, or who need to refresh their memories after a long break from studying math.
 
-# 4.Essential Mathematics for Artificial Intelligence
-Learn to apply ethical and legal frameworks to initiatives in the data profession. You will explore practical approaches to data and analytics problems posed by work in Big Data, Data Science, and AI. You will also investigate applied data methods for ethical and legal work in Analytics and AI.
+This content is designed for audience without any prior Machine learning knowledge. It starts from very basics and goes to advanced topics. We will try to keep this content live and include more and more advanced lab sessions with real life scenarious. Thanks for your support and feedback to make this content better. 
 
-# 5.Data Science Essentials
-Learn the essential skills and hands-on experience with the science and research aspects of data science work using Python, from setting up a proper data study to making valid claims and inferences from data experiments.
+### **Suggested timeline for Azure Machine Learning Hands On Lab (HOL)**
 
-# 6.Build Machine Learning Models
-Get hands-on experience building and deriving insights from machine learning models using Python and Azure Notebooks.
+| Time (min) | Activity |
+| ---        | ---      |
+| 50         | [Introduction to Machine Learning](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/000-into-machine-learning.pptx) |
+| 20         | Lab1 - [Setting up development environment](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/001-lab-setup.md) |
+| 45         | Lab2 - [Introduction to R, Python & Data Synth](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/002-lab-data-synth.md) |
+| 45         | Lab3 - [AzureML Experiments & Data Interaction](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/003-lab-data-interact.md) |
+| 60         | Lab4 - [Develop and Consume AzureML Models](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/004-lab-azureml-experiment.md) |
+| 45         | Lab5 - [Custom Scripts (R & Python) in AML](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/005-lab-custom-script-r-python.md) |
+| 60         | Lab6 - [Evaluate model performance in AML](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/006-lab-model-evaluation.md) |
+| 60         | Lab7 - [Azure ML Batch Score, Retrain, Production and Automatization](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/007-lab-production-ops.md) |
+| 45         | Lab8 - [Recommendation System](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/008-lab-recommendation-system.md) |
+| 45         | Lab9 - [Monetizing Azure ML Solution](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/009-lab-monetization.md) |
+| 90         | Lab10 - [Case Study: Optical character recognition](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/010-lab-cs-ocr.md) |
 
-# 7.Build Deep Learning Models
-Deep learning is a key enabler of AI powered technologies being developed across the globe. In this deep learning course, you will learn an intuitive approach to building complex models that help machines solve real-world problems with human-like intelligence. The intuitive approaches will be translated into working code with practical problems and hands-on experience. You will learn how to build and derive insights from these models using Python Jupyter notebooks running on your local Windows or Linux machine, or on a virtual machine running on Azure. You will learn how to use the Microsoft Cognitive Toolkit to harness the intelligence within massive datasets through deep learning with uncompromised scaling, speed, and accuracy.
+### **Detailed contents of the HOL**
 
-# 8.Build Reinforcement Learning Models
-Reinforcement Learning (RL) is an area of machine learning, where an agent learns by interacting with its environment to achieve a goal.In this course, you will be introduced to the world of reinforcement learning. You will learn how to frame reinforcement learning problems and start tackling classic examples like news recommendation, learning to navigate in a grid-world, and balancing a cart-pole. You will explore the basic algorithms from multi-armed bandits, dynamic programming, TD (temporal difference) learning, and progress towards larger state space using function approximation, in particular using deep learning. You will also learn about algorithms that focus on searching the best policy with policy gradient and actor critic methods. Along the way, you will get introduced to Project Malmo, a platform for Artificial Intelligence experimentation and research built on top of the Minecraft game.
+ - [Introduction to Machine Learning](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/000-into-machine-learning.pptx)
+    
+1. [Setting up development environment](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/001-lab-setup.md)  
+    * Overview
+        * Objectives
+        * Requirements
+    * Create free tier Azure ML account  
+    * Create standard tier Azure ML account  
+    * Install R and R Studio  
+    * Install Anaconda Python  
 
-# 9.Develop Applied AI Solutions
-## 9.1From Graph to Knowledge Graph - Algorithms, Theory and Applications
-Learn fundamental algorithms and theory in understanding large-scale graphs and knowledge graphs.
+2. [Introduction to R, Python & Data Synth](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/002-lab-data-synth.md)  
+    * Overview
+        * Objectives
+        * Requirements
+    * Generate Synthetic Data
+        * Microsoft Excel
+        * R
+        * Python
+        * Microsoft Azure SQL Server
+        * Microsoft Azure Blob Storage 
+    * Other Dataset sources (Use https://kayazureml.blob.core.windows.net/aml-hol/forestfires.csv instead of the link in the documentation (http://www.dsi.uminho.pt/~pcortez/forestfires/forestfires.csv).) 
 
-## 9.2Computer Vision and Image Analysis
-Learn about Image Analysis techniques using OpenCV and the Microsoft Cognitive Toolkit to segment images into meaningful parts. You will explore the evolution of Computer Vision, from classical to Deep-Learning techniques using Transfer Learning and Microsoft ResNet to train a model to perform Semantic Segmentation.
+3. [AzureML Experiments & Data Interaction](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/003-lab-data-interact.md)  
+    * Overview
+        * Objectives
+        * Requirements
+    * Creating AzureML Experiment
+    * Accessing Data
+        * Access data, use existing dataset
+        * Upload your own dataset
+        * Upload your own compressed dataset
+        * Manually enter data
+        * Access data on Azure Storage
+        * Access data on Azure SQL Database
+        * Get data from an HTTP web request
 
-## 9.3Speech Recognition Systems
-This course is designed to give an overview of the components of a modern Automatic Speech Recognition (ASR) system. In each lecture, we describe a component's purpose and general structure. In each lab, the student creates a functioning block of the system. At the end of the course, we will have built a speech recognition system almost entirely out of Python code.
+4. [Develop and Consume AzureML Models](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/004-lab-azureml-experiment.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Working with AzureML Models
+        * Training a model
+        * Publishing a trained model as Web Service
+        * Removing Web Service Redundant input & output parameters
+        * Consume the ML Web Service in a C# application
+        * Input data type
 
-## 9.4Natural Language Processing (NLP)
-Natural language processing (NLP) is one of the most important technologies of the information age. Understanding complex language utterances is also a crucial part of artificial intelligence. In this course, you will be given a thorough overview of Natural Language Processing and how to use classic machine learning methods. You will learn about Statistical Machine Translation as well as Deep Semantic Similarity Models (DSSM) and their applications. We will also discuss deep reinforcement learning techniques applied in NLP and Vision-Language Multimodal Intelligence.
+5. [Custom Scripts (R & Python) in AML](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/005-lab-custom-script-r-python.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * R & Python Script Modules
+        * Using Execute R Script module
+        * Using Python Script module
+        * R & Python compatibility with Azure ML
 
-# 10.Microsoft Professional Capstone : Artificial Intelligence
-This course is unusual in that it is a test of the knowledge and skills you have developed by taking other courses. The point of this capstone project is to enable to to gain experience of applying these skills to solve a real problem.
+6. [Evaluate model performance in AML](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/006-lab-model-evaluation.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Performance evaluation
+        * Splitting data
+        * Scoring the model
+        * Evaluate a Regression model
+        * Evaluate more than one model
+        * Cross Validation
+    * Performance evaluation (cont.)
+        * Evaluate a Binary classification model
+        * Comparing two binary classification model
+        * Cross Validation on Binary Classification
+        * Evaluating a Multi-class classification model
+    * Feature engineering
+        * Which feature is or is not important?
+        * Simpler method to measure a feature’s importance
 
+7. [Azure ML Batch Score, Retrain, Production and Automatization](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/007-lab-production-ops.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Importance of Retraining, seeing the whole picture
+    * Batch and Request/Response scoring web services
+        * Stages to create a scoring web service
+            * Request/Response Service (RRS)
+            * Batch Execution Service (BES)
+            * Web Service Input/Output Parameter alternatives
+    * Azure ML Retraining
+
+8. [Recommendation System](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/008-lab-recommendation-system.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Generate synthetic data
+    * Recommend items to users
+    * Find related users
+    * Find related items
+    * What to recommend for a brand new user?
+9. [Monetizing Azure ML Solution](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/009-lab-monetization.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Azure ML Web Service Details
+    * Create Azure Management API Service
+    * CORS issue with Azure Machine Learnin Web Services
+    * Restrict or Rate limit your Web Service
+    * Test and Publish your Web Service
+
+10. [Case Study: Optical character recognition](https://github.com/Azure-Readiness/hol-azure-machine-learning/blob/master/010-lab-cs-ocr.md)
+    * Overview
+        * Objectives
+        * Requirements
+    * Exploring and Understanding the Dataset
+        * Process MINST database in Azure ML with Python script
+        * Generate image tiles
+    * Azure ML solution for OCR
+        * Develope Azure ML experiment
+        * Deploy as webservice
+        * Parameters needed to publish with management API
+    * Consuming the ML solution
+        * Security of the API
+    * Develop web application
+        * Publish as Azure Web Application
+    * Test the solution
+    * Refine Features, Feature Engineering
